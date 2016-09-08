@@ -15,3 +15,9 @@ lumen new hnreader
 ```shell
 php artisan migrate
 ```
+
+3. Get the news items feed and dump in the local database.
+
+```shell
+php artisan update:news_items
+```
